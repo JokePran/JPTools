@@ -31,6 +31,29 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'JPTools/Classes/**/*'
+
+  s.subspec 'JPAudioPlayer' do |a|
+      a.source_files = 'JPTools/Classes/JPAudioPlayer/**/*'
+  end
+
+  s.subspec 'JPPermenantThead' do |p|
+      p.source_files = 'JPTools/Classes/JPPermenantThead/**/*'
+  end
+
+  s.subspec 'JPProgressHUD' do |p|
+      p.source_files = 'JPTools/Classes/JPProgressHUD/**/*'
+  end
+
+  s.subspec 'JPSQLTools' do |t|
+      t.source_files = 'JPTools/Classes/JPSQLTools/**/*'
+  end
+
+  s.subspec 'JPTimer' do |t|
+      t.source_files = 'JPTools/Classes/JPTimer/**/*'
+  end
+
+
+
   
   # s.resource_bundles = {
   #   'JPTools' => ['JPTools/Assets/*.png']
