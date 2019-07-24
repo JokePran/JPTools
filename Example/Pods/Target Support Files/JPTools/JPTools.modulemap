@@ -1,0 +1,6 @@
+framework module JPTools {
+  umbrella header "JPTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

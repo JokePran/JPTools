@@ -58,11 +58,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66DE302C8346E7795C9BB97C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		66DE302C8346E7795C9BB97C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA885E43C9D3FCAA82793677 /* JPTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JPTools.podspec; path = ../JPTools.podspec; sourceTree = "<group>"; };
-		AC6555825F42970AD83BA92D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA885E43C9D3FCAA82793677 /* JPTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JPTools.podspec; path = ../JPTools.podspec; sourceTree = "<group>"; };
+		AC6555825F42970AD83BA92D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BA15A3B1403629824179E6F4 /* Pods-JPTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPTools_Example.release.xcconfig"; path = "Target Support Files/Pods-JPTools_Example/Pods-JPTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB4724F7560207844AA97308 /* Pods_JPTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD502BDE4D62B0D8C58068E5 /* Pods-JPTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-JPTools_Example/Pods-JPTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				27A3F9A04CF550A0C70D13F8 /* Pods-JPTools_Tests.debug.xcconfig */,
 				FAEB0862D6AF44F0A061F083 /* Pods-JPTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "jokepran@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = B4WJ5UPLLC;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = CD502BDE4D62B0D8C58068E5 /* Pods-JPTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B4WJ5UPLLC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JPTools/JPTools-Prefix.pch";
 				INFOPLIST_FILE = "JPTools/JPTools-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = BA15A3B1403629824179E6F4 /* Pods-JPTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B4WJ5UPLLC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JPTools/JPTools-Prefix.pch";
 				INFOPLIST_FILE = "JPTools/JPTools-Info.plist";

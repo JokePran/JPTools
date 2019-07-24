@@ -1,0 +1,16 @@
+PODS:
+  - JPTools (0.1.0)
+
+DEPENDENCIES:
+  - JPTools (from `../`)
+
+EXTERNAL SOURCES:
+  JPTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JPTools: d36cacaeac706778db8ead853b7a3e58a7f53e47
+
+PODFILE CHECKSUM: e89c48bffce5551be0d37d347c841763a9eec338
+
+COCOAPODS: 1.7.4

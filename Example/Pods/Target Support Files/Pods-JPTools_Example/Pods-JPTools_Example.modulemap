@@ -1,0 +1,6 @@
+framework module Pods_JPTools_Example {
+  umbrella header "Pods-JPTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
