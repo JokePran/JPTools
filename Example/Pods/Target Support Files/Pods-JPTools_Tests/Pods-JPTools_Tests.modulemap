@@ -1,6 +1,0 @@
-framework module Pods_JPTools_Tests {
-  umbrella header "Pods-JPTools_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

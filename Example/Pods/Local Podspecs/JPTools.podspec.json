@@ -1,22 +1,44 @@
 {
   "name": "JPTools",
   "version": "0.1.0",
-  "summary": "A short description of JPTools.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Tools for JP",
+  "description": "A collection of tools for JP",
   "homepage": "https://github.com/jokepran@163.com/JPTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "jokepran@163.com": "wuchun_feng@queenchip.com"
+    "jokepran": "jokepran@gmail.com"
   },
   "source": {
-    "git": "https://github.com/jokepran@163.com/JPTools.git",
+    "git": "https://github.com/JokePran/JPTools.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JPTools/Classes/**/*"
+  "source_files": "JPTools/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "JPAudioPlayer",
+      "source_files": "JPTools/Classes/JPAudioPlayer/**/*"
+    },
+    {
+      "name": "JPPermenantThead",
+      "source_files": "JPTools/Classes/JPPermenantThead/**/*"
+    },
+    {
+      "name": "JPProgressHUD",
+      "source_files": "JPTools/Classes/JPProgressHUD/**/*"
+    },
+    {
+      "name": "JPSQLTools",
+      "source_files": "JPTools/Classes/JPSQLTools/**/*"
+    },
+    {
+      "name": "JPTimer",
+      "source_files": "JPTools/Classes/JPTimer/**/*"
+    }
+  ]
 }

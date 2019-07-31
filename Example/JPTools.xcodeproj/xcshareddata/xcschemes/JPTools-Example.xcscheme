@@ -38,6 +38,16 @@
                ReferencedContainer = "container:JPTools.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "88201DE522EAA8FB001C2AF2"
+               BuildableName = "JPSQLTool_Tests.xctest"
+               BlueprintName = "JPSQLTool_Tests"
+               ReferencedContainer = "container:JPTools.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

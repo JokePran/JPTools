@@ -1,5 +1,15 @@
 PODS:
-  - JPTools (0.1.0)
+  - JPTools (0.1.0):
+    - JPTools/JPAudioPlayer (= 0.1.0)
+    - JPTools/JPPermenantThead (= 0.1.0)
+    - JPTools/JPProgressHUD (= 0.1.0)
+    - JPTools/JPSQLTools (= 0.1.0)
+    - JPTools/JPTimer (= 0.1.0)
+  - JPTools/JPAudioPlayer (0.1.0)
+  - JPTools/JPPermenantThead (0.1.0)
+  - JPTools/JPProgressHUD (0.1.0)
+  - JPTools/JPSQLTools (0.1.0)
+  - JPTools/JPTimer (0.1.0)
 
 DEPENDENCIES:
   - JPTools (from `../`)
@@ -9,8 +19,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JPTools: d36cacaeac706778db8ead853b7a3e58a7f53e47
+  JPTools: d7336fa36954a09b2d3dbf479ce6568f124364e6
 
-PODFILE CHECKSUM: e89c48bffce5551be0d37d347c841763a9eec338
+PODFILE CHECKSUM: 7ada059702c67d8e7a43cbee8e54b6e38bd1f0dd
 
 COCOAPODS: 1.7.4

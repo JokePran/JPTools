@@ -5,9 +5,8 @@ platform :ios, '8.0'
 target 'JPTools_Example' do
   pod 'JPTools', :path => '../'
 
-  target 'JPTools_Tests' do
-    inherit! :search_paths
+  #target 'JPSQLTool_Tests' do
+   # inherit! :search_paths
+  #end
 
-    
-  end
 end

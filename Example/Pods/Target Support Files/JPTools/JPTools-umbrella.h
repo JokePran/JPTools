@@ -13,7 +13,16 @@
 #import "JPAudioPlayer.h"
 #import "JPPermenantThead.h"
 #import "JPProgressHUD.h"
-#import "JPSQLTools.h"
+#import "JPModelTool.h"
+#import "JPSQLModelTool.h"
+#import "JPSQLTool.h"
+#import "JPTimer.h"
+#import "JPAudioPlayer.h"
+#import "JPPermenantThead.h"
+#import "JPProgressHUD.h"
+#import "JPModelTool.h"
+#import "JPSQLModelTool.h"
+#import "JPSQLTool.h"
 #import "JPTimer.h"
 
 FOUNDATION_EXPORT double JPToolsVersionNumber;

@@ -7,12 +7,13 @@
 //
 
 #import "JPAppDelegate.h"
+#import "JPSqliteTest.h"
 
 @implementation JPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[JPSqliteTest alloc] init];
     return YES;
 }
 
