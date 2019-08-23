@@ -51,9 +51,9 @@ Pod::Spec.new do |s|
   s.subspec 'JPTimer' do |t|
       t.source_files = 'JPTools/Classes/JPTimer/**/*'
   end
-
-
-
+    s.subspec 'JPActiActivityIndicator' do |a|
+        a.source_files = 'JPTools/Classes/JPActiActivityIndicator/**/*'
+    end
   
   # s.resource_bundles = {
   #   'JPTools' => ['JPTools/Assets/*.png']
